@@ -1,10 +1,25 @@
-.pp
-{
+.hh{
     color: blue;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 1.5rem;
+    margin-right: 150px;
 }
 .container
+{
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+}
+.title
+{
+    display: flex;
+    justify-content: center;
+}
+.span
+{
+    color: blue;
+}
+.pdiv
 {
     display: flex;
     justify-content: center;
