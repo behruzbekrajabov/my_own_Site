@@ -24,3 +24,25 @@
     display: flex;
     justify-content: center;
 }
+.btns
+{
+    display: flex;
+    justify-content: center;
+}
+.btn1
+{
+    border-radius: 8px;
+    padding: 10px 25px 10px 25px;
+    margin-right: 20px;
+    background-color: blue;
+    color: white;
+    border: none;
+}
+.btn2
+{
+    border-radius: 8px;
+    padding: 10px 25px 10px 25px;
+    border: 1px solid blue;
+    background-color: white;
+    color: blue;
+}
