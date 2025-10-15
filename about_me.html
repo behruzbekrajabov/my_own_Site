@@ -1,36 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>About Me</title>
     <link rel="stylesheet" href="./about_me.css" />
-  </head>
-  <body>
+</head>
+
+<body>
     <div class="main">
-      <nav>
-        <div class="btn">
-          <a href="./index.html" class="pict">🏡</a>
-          <a href="./index.html" class="home" onmouseover="picture()" onmouseleave="back()">Home</a>
-        </div>
-      </nav>
+        <nav>
+            <div class="btn">
+                <a href="./index.html" class="pict">🏡</a>
+                <a href="./index.html" class="home" onmouseover="picture()" onmouseleave="back()">Home</a>
+            </div>
+        </nav>
     </div>
     <div class="container">
-      <div class="h12">
-        <h1 class="h1">My projects:</h1>
-      </div>
-      <p class="parag">Some projects there!</p>
+        <div class="h12">
+            <h1 class="h1">My projects:</h1>
+        </div>
+        <div class="logo">
+            <a href="https://github.com/behruzbekrajabov?tab=repositories"><img src="./img/github-brands-solid-full.svg" alt="" class="gitlogo"></a>
+
+        </div>
     </div>
     <script>
-      function picture() {
-        document.querySelector(".pict").style.display = "inline"
-        
-       
-      }
-      function back() {
-        document.querySelector(".pict").style.display = "none"
-        
-      }
+        function picture() {
+            document.querySelector(".pict").style.display = "inline"
+
+
+        }
+
+        function back() {
+            document.querySelector(".pict").style.display = "none"
+
+        }
     </script>
-  </body>
+</body>
+
 </html>
