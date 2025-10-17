@@ -36,7 +36,7 @@ html
 }
 
 .hp {
-    color: bisque;
+    color: white;
 }
 
 .span {
@@ -124,8 +124,8 @@ html
 }
 
 .abmp {
-    color: bisque;
     gap: 6px;
+    color: white;
 }
 
 .ahrefit {
@@ -220,4 +220,4 @@ html
     0% {
         color: rgb(0, 0, 40);
     }
-}
+}}
