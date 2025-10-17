@@ -28,9 +28,7 @@ html
     display: flex;
     justify-content: left;
     background-image: url(./img/depositphotos_11688404_stock_photo_blue_circle_gradient_background.jpg);
-    /* margin: 20px; */
-    /* margin-bottom: 50px; */
-}
+
 
 .title {
     display: flex;
