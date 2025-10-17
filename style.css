@@ -3,8 +3,8 @@
 }
 
 .body {
-    background-image: url(./img/abstraktnaa-cifrovaa-setka-cernyi-fon.jpg);
-    background-repeat: space;
+    background-image: url(./imgs/abstraktnaa-cifrovaa-setka-cernyi-fon.jpg);
+    background-repeat: no-repeat;
     background-size: cover;
 }
 
@@ -22,7 +22,7 @@
 .container {
     display: flex;
     justify-content: left;
-    background-image: url(./img/depositphotos_11688404_stock_photo_blue_circle_gradient_background.jpg);
+    background-image: url(./imgs/depositphotos_11688404-stock-photo-blue-circle-gradient-background-cuci.jpg);
     /* margin: 20px; */
     /* margin-bottom: 50px; */
 }
@@ -39,6 +39,9 @@
 .span {
     color: blue;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    animation-name: anim1;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
 }
 
 .pdiv {
@@ -79,6 +82,15 @@
     margin-right: 20px;
 }
 
+.ahref2 {
+    font-size: 18px;
+    margin-right: 20px;
+}
+
+.ahref2:hover {
+    color: black;
+}
+
 .ahref:hover {
     color: black;
 }
@@ -101,9 +113,11 @@
 }
 
 .abmp {
-    /* display: flex;
-    justify-content: center; */
     margin-left: 300px;
+}
+
+.abm {
+    border-top: 1px solid rgb(255, 255, 255);
 }
 
 .abmp {
@@ -137,4 +151,70 @@
     border: 1px solid rgb(255, 255, 255);
     border-radius: 25px;
     padding: 5px;
+}
+
+@keyframes anim1 {
+    100% {
+        color: blue;
+    }
+    95% {
+        color: rgb(0, 0, 250);
+    }
+    90% {
+        color: rgb(0, 0, 211);
+    }
+    85% {
+        color: rgb(0, 0, 190);
+    }
+    80% {
+        color: rgb(0, 0, 187);
+    }
+    75% {
+        color: rgb(0, 0, 175);
+    }
+    70% {
+        color: rgb(0, 0, 170);
+    }
+    65% {
+        color: rgb(0, 0, 160);
+    }
+    60% {
+        color: rgb(0, 0, 150);
+    }
+    55% {
+        color: rgb(0, 0, 140)
+    }
+    50% {
+        color: rgb(0, 0, 130);
+    }
+    45% {
+        color: rgb(0, 0, 120);
+    }
+    40% {
+        color: rgb(0, 0, 110);
+    }
+    35% {
+        color: rgb(0, 0, 100);
+    }
+    30% {
+        color: rgb(0, 0, 90);
+    }
+    25% {
+        color: rgb(0, 0, 90);
+    }
+    20% {
+        color: rgb(0, 0, 80);
+    }
+    15% {
+        color: rgb(0, 0, 75);
+    }
+    10% {
+        color: rgb(0, 0, 70);
+    }
+    5% {
+        color: rgb(0, 0, 50);
+    }
+    0% {
+        color: rgb(0, 0, 40);
+    }
 }

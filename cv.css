@@ -1,0 +1,66 @@
+.location {
+    display: flex;
+    justify-content: left;
+    margin-top: 40px;
+}
+
+.pict {
+    text-decoration: none;
+}
+
+.home {
+    text-decoration: none;
+}
+
+.phone {
+    display: flex;
+    justify-content: left;
+    margin-top: 40px;
+}
+
+.img {
+    width: 90px;
+    height: 90px;
+}
+
+.img1 {
+    width: 90px;
+    height: 90px;
+}
+
+.p {
+    margin-right: 40px;
+}
+
+.p1 {
+    margin-right: 40px;
+}
+
+.h2 {
+    display: flex;
+    justify-content: space-evenly;
+    border-top: 1px solid black;
+}
+
+.school {
+    margin-bottom: 200px;
+}
+
+.skills {
+    margin-bottom: 200px;
+}
+
+.h21 {
+    display: flex;
+    justify-content: center;
+}
+.gmail
+{
+     display: flex;
+    justify-content: left;
+    margin-top: 40px;
+}
+.img4
+{
+    
+}
