@@ -2,17 +2,16 @@
     text-decoration: none;
 }
 
-html
-{
-    background-color: black;
-
-}
 .body {
     background-image: url(./img/abstraktnaa-cifrovaa-setka-cernyi-fon.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
+html
+{
+    background-color: black;
 
+}
 .bigcontainer {
     margin-bottom: 400px;
 }
@@ -28,7 +27,9 @@ html
     display: flex;
     justify-content: left;
     background-image: url(./img/depositphotos_11688404_stock_photo_blue_circle_gradient_background.jpg);
-
+    /* margin: 20px; */
+    /* margin-bottom: 50px; */
+}
 
 .title {
     display: flex;
@@ -36,7 +37,7 @@ html
 }
 
 .hp {
-    color: white;
+    color: bisque;
 }
 
 .span {
@@ -124,8 +125,8 @@ html
 }
 
 .abmp {
+    color: bisque;
     gap: 6px;
-    color: white;
 }
 
 .ahrefit {
@@ -220,4 +221,4 @@ html
     0% {
         color: rgb(0, 0, 40);
     }
-}}
+}

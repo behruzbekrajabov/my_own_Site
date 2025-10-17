@@ -3,6 +3,12 @@
     justify-content: left;
     margin-top: 40px;
 }
+body
+{
+    background-image: url(./img/background_images.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 
 .pict {
     text-decoration: none;
